@@ -133,8 +133,9 @@ const createViewer = async (containerName: string, _stream: string) => {
 const getStream = () => {
   return (
     // prettier-ignore
+    'https://app.speckle.systems/projects/1b96a34aae/models/a8698c0c67'
     // Revit sample house (good for bim-like stuff with many display meshes)
-    'https://app.speckle.systems/streams/da9e320dad/commits/5388ef24b8'
+    // 'https://app.speckle.systems/streams/da9e320dad/commits/5388ef24b8'
     // 'https://app.speckle.systems/streams/da9e320dad/objects/ee5d160d84090822813bc74188da34a7'
 
     //large tower
@@ -640,6 +641,24 @@ const getStream = () => {
 
     // Gergo's new house
     // 'https://app.speckle.systems/projects/4743372784/models/2aeaa357e6'
+
+    // Fake RTE instances
+    // 'https://app.speckle.systems/projects/1b96a34aae/models/a7c177f45d@334523bdd6'
+
+    // Revit instances
+    // 'https://app.speckle.systems/projects/1b96a34aae/models/a8698c0c67'
+
+    // Views v3 rhino
+    // 'https://app.speckle.systems/projects/b6e95c0c63/models/6f7c51cf74@46365a886d'
+    // Views v3 revit
+    // 'https://app.speckle.systems/projects/b6e95c0c63/models/f9fbf66e16@c5469b787e'
+
+    // 'https://app.speckle.systems/projects/e8593e1ac8/models/489951fef0'
+
+    // instances IFC
+    // 'https://app.speckle.systems/projects/f3a42bdf24/models/0e23cfdea3@664e8d20e6'
+
+    // 'https://app.speckle.systems/projects/1b96a34aae/models/9bf8e1a49d@2e917b2dc7'
   )
 }
 
